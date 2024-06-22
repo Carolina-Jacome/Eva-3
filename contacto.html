@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="imagen/png" href="img/faviconavion.png">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Londrina+Shadow&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>TU VIAJE POR EL MUNDO</h1>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html"><i class="material-icons">home</i>Inicio</a></li>
+                    <li><a href="nosotros.html"><i class="material-icons">group</i>Nosotros</a></li>
+                    <li><a href="blog.html"><i class="material-icons">article</i>Blog</a></li>
+                    <li><a href="galeria.html"><i class="material-icons">photo</i>Galeria</a></li>
+                    <li><a href="video.html"><i class="material-icons">video_library</i>Video</a></li>
+                    <li><a href="contacto.html"><i class="material-icons">contact_mail</i>Contáctanos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="contenido">
+            <div class="datos">
+            <h3>Información de contacto:</h3>
+            <br>
+            <table border>
+                <thead>
+                    <tr>
+                        <th>Dirección</th>
+                        <th>Av. la Molina 1131 - La Molina, Lima, Perú<br>
+                            Av. Aviación 2874 - San Borja, Lima, Perú</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Telefonos</td>
+                        <td>999 999 999<br>
+                            989 000 999</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>viajesporelmundo.info@outlook.com</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <div class="formulario1">
+                <h3>Dejanos tus datos:</h3>
+                <br>
+                <form action="datos.php" method="get" name="form2">
+                    <div>
+                        Nombre y Apellidos <input type="text" name="Nombre y Apellidos" placeholder="Ingrese su Nombre y Apellido"><br><br>
+                        Correo Electronico <input type="email" name="Correo Electronico" placeholder="nombre@dominio.com"><br><br>
+                        Celular <input type="tel" name="celular" placeholder="999 999 999" required><br><br>
+                        Dirección <input type="text" name="Dirección" placeholder="Ingrese su dirección"><br><br>
+                    </div>
+                    <div class="botones">
+                        <input type="submit" value="ENVIAR">
+                        <input type="reset" value="BORRAR">
+                    </div>
+                </form>                
+        </section>
+        <div id="ubicacion0">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37116.87822444808!2d-77.00378341665139!3d-12.082603205523613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c65b1d24ff0b%3A0x6c947e86ea732c38!2sParque%20de%20Los%20Anillos!5e0!3m2!1ses-419!2spe!4v1719032676165!5m2!1ses-419!2spe" width="790" height="390" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        
+        <footer>
+            <div id="redes">
+                <a href="#"><img src="img/facebook_121502.png" alt="FB"></a>
+                <a href="#"><img src="img/instagram_121520.png" alt="INSTA"></a>
+                <a href="#"><img src="img/twitter_121503.png" alt="TWITTER"></a>
+                <a href="#"><img src="img/youtube_121504.png" alt="YT"></a>
+            </div>
+            <p>Copyrigth 2024 - Todos los Derechos reservados</p>
+            <p>Para consultas, contáctenos en <a href="#">viajesporelmundo.info@outlook.com</a></p>
+        </footer>        
+    </main> 
+</body>
+</html>
